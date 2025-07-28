@@ -1,1121 +1,1130 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>rsinternationaltours</title>
+        <!-- favicons Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="ahttps://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
+        <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+        <meta name="description" content="eventflow HTML 5 Template " />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rsinternationaltours </title>
-    <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="ahttps://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="https://bakuholidaytourpackages.com/assets/images/tour/RSinternatinal-logo.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="eventflow HTML 5 Template " />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+        <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+        <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+        <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+        <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+        <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+        <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+        <link rel="stylesheet" href="assets/vendors/eventflow-icons/style.css" />
+        <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+        <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
+        <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
 
+        <!-- template styles -->
+        <link rel="stylesheet" href="assets/css/eventflow.css" />
+        <link rel="stylesheet" href="assets/css/eventflow-responsive.css" />
+        <style>
+            /* Topbar */
+            .custom-topbar {
+                background-color: #202c5e;
+                color: white;
+                font-size: 14px;
+                padding: 8px 0;
+            }
 
+            .custom-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1240px;
+                margin: 0 auto;
+                padding: 0 15px;
+            }
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/vendors/eventflow-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+            .custom-social i {
+                margin-right: 12px;
+                cursor: pointer;
+            }
 
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/eventflow.css" />
-    <link rel="stylesheet" href="assets/css/eventflow-responsive.css" />
-    <style>
-        /* Topbar */
-.custom-topbar {
-  background-color: #202c5e;
-  color: white;
-  font-size: 14px;
-  padding: 8px 0;
-}
+            .custom-contact {
+                display: flex;
+                align-items: anchor-center;
+                gap: 10px;
+            }
 
-.custom-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+            .custom-contact .divider {
+                margin: 0 6px;
+            }
 
-.custom-social i {
-  margin-right: 12px;
-  cursor: pointer;
-}
+            /* Navbar */
+            .custom-navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 18px 40px;
+                background-color: white;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            }
 
-.custom-contact {
-  display: flex;
-  align-items: anchor-center;
-  gap: 10px;
-}
+            .custom-logo-area {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
 
-.custom-contact .divider {
-  margin: 0 6px;
-}
+            .custom-logo {
+                width: 170px;
+            }
 
-/* Navbar */
-.custom-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 40px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
+            .custom-tagline {
+                font-size: 12px;
+                color: #555;
+                margin-top: -5px;
+            }
 
-.custom-logo-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+            /* Nav menu */
+            .custom-nav-menu ul {
+                list-style: none;
+                display: flex;
+                gap: 30px;
+                margin: 0;
+                padding: 0;
+            }
 
-.custom-logo {
-  width: 170px;
-}
+            .custom-nav-menu ul li a {
+                text-decoration: none;
+                color: #444;
+                font-weight: 500;
+                font-size: 16px;
+                transition: color 0.3s ease;
+            }
 
-.custom-tagline {
-  font-size: 12px;
-  color: #555;
-  margin-top: -5px;
-}
+            .custom-nav-menu ul li a.active,
+            .custom-nav-menu ul li a:hover {
+                color: #4a235a; /* dark purple like in screenshot */
+            }
 
-/* Nav menu */
-.custom-nav-menu ul {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
+            /* === DESKTOP VIEW === */
+            @media (min-width: 769px) {
+                .mobile-header-wrapper,
+                .mobile-menu-items {
+                    display: none !important;
+                }
+            }
 
-.custom-nav-menu ul li a {
-  text-decoration: none;
-  color: #444;
-  font-weight: 500;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
+            /* === MOBILE VIEW === */
+            @media (max-width: 768px) {
+                /* Hide desktop menu */
+                .custom-navbar,
+                .custom-nav-menu,
+                .custom-topbar {
+                    display: none !important;
+                }
 
-.custom-nav-menu ul li a.active,
-.custom-nav-menu ul li a:hover {
-  color: #4a235a; /* dark purple like in screenshot */
-}
+                /* Show mobile header */
+                .mobile-header-wrapper {
+                    display: block;
+                    background-color: #ffffff;
+                }
 
-/* === DESKTOP VIEW === */
-@media (min-width: 769px) {
-  .mobile-header-wrapper,
-  .mobile-menu-items {
-    display: none !important;
-  }
-}
+                .mobile-logo-area {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px 0 0;
+                }
 
-/* === MOBILE VIEW === */
-@media (max-width: 768px) {
-  /* Hide desktop menu */
-  .custom-navbar,
-  .custom-nav-menu,
-  .custom-topbar {
-    display: none !important;
-  }
+                .mobile-logo-area img {
+                    width: 160px;
+                }
 
-  /* Show mobile header */
-  .mobile-header-wrapper {
-    display: block;
-    background-color: #ffffff;
-  }
+                .mobile-tagline {
+                    font-size: 12px;
+                    color: #555;
+                    margin-top: -5px;
+                    margin-bottom: 10px;
+                }
 
-  .mobile-logo-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0 0;
-  }
+                .mobile-nav-bar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #202c5e;
+                    padding: 10px 15px;
+                }
 
-  .mobile-logo-area img {
-    width: 160px;
-  }
+                .mobile-search {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    color: white;
+                    flex: 1;
+                }
 
-  .mobile-tagline {
-    font-size: 12px;
-    color: #555;
-    margin-top: -5px;
-    margin-bottom: 10px;
-  }
+                .mobile-search input {
+                    background: transparent;
+                    border: none;
+                    color: white;
+                    outline: none;
+                    font-size: 14px;
+                    width: 100%;
+                    max-width: 140px;
+                }
 
-  .mobile-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #202c5e;
-    padding: 10px 15px;
-  }
+                .mobile-menu-toggle {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
 
-  .mobile-search {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    color: white;
-    flex: 1;
-  }
+                .mobile-menu-toggle i {
+                    font-size: 18px;
+                }
 
-  .mobile-search input {
-    background: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    font-size: 14px;
-    width: 100%;
-    max-width: 140px;
-  }
+                .mobile-menu-items {
+                    display: none;
+                    background-color: #f8f8f8;
+                    border-top: 1px solid #ddd;
+                }
 
-  .mobile-menu-toggle {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-  }
+                .mobile-menu-items.show {
+                    display: block;
+                }
 
-  .mobile-menu-toggle i {
-    font-size: 18px;
-  }
+                .mobile-menu-items ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
 
-  .mobile-menu-items {
-    display: none;
-    background-color: #f8f8f8;
-    border-top: 1px solid #ddd;
-  }
+                .mobile-menu-items ul li {
+                    border-bottom: 1px solid #ddd;
+                }
 
-  .mobile-menu-items.show {
-    display: block;
-  }
+                .mobile-menu-items ul li a {
+                    display: block;
+                    padding: 12px 15px;
+                    text-decoration: none;
+                    color: #333;
+                    font-weight: 500;
+                }
 
-  .mobile-menu-items ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+                .mobile-menu-items ul li a:hover {
+                    background-color: #e2e2e2;
+                }
+            }
+            .animated-brackets {
+                display: inline-block;
+                transition: opacity 0.5s ease;
+                font-weight: bold;
+                color: #ff5722; /* Stylish color */
+            }
+        </style>
+    </head>
 
-  .mobile-menu-items ul li {
-    border-bottom: 1px solid #ddd;
-  }
+    <body class="body-bg-color-1">
+        <div class="preloader">
+            <div class="preloader__image"></div>
+        </div>
+        <!-- /.preloader -->
 
-  .mobile-menu-items ul li a {
-    display: block;
-    padding: 12px 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-
-  .mobile-menu-items ul li a:hover {
-    background-color: #e2e2e2;
-  }
-}
-
-    </style>
-</head>
-
-<body class="body-bg-color-1">
-
-
-
-    <div class="preloader">
-        <div class="preloader__image"></div>
-    </div>
-    <!-- /.preloader -->
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Start sidebar widget content -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                    <div class="sidebar-info-contents">
-                        <div class="content-inner">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" /></a>
-                            </div>
-                            <div class="content-box">
-                                <h4>About Us</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
-                                    labore et magna aliqua.</p>
-                            </div>
-                            <div class="form-inner">
-                                <h4>Get a free quote</h4>
-                                <form action="assets/inc/sendemail.php" class="contact-form-validated"
-                                    novalidate="novalidate">
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="Name" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder="Message..."></textarea>
-                                    </div>
-                                    <div class="form-group message-btn">
-                                        <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>
-                                    </div>
-                                </form>
-                                <div class="result"></div>
+        <!-- Start sidebar widget content -->
+        <div class="xs-sidebar-group info-group info-sidebar">
+            <div class="xs-overlay xs-bg-black"></div>
+            <div class="xs-sidebar-widget">
+                <div class="sidebar-widget-container">
+                    <div class="widget-heading">
+                        <a href="#" class="close-side-widget">X</a>
+                    </div>
+                    <div class="sidebar-textwidget">
+                        <div class="sidebar-info-contents">
+                            <div class="content-inner">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" /></a>
+                                </div>
+                                <div class="content-box">
+                                    <h4>About Us</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                                </div>
+                                <div class="form-inner">
+                                    <h4>Get a free quote</h4>
+                                    <form action="assets/inc/sendemail.php" class="contact-form-validated" novalidate="novalidate">
+                                        <div class="form-group">
+                                            <input type="text" name="name" placeholder="Name" required="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Email" required="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea name="message" placeholder="Message..."></textarea>
+                                        </div>
+                                        <div class="form-group message-btn">
+                                            <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>
+                                        </div>
+                                    </form>
+                                    <div class="result"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End sidebar widget content -->
+        <!-- End sidebar widget content -->
 
-
-
-
-    <div class="page-wrapper">
-      <!-- Top Header Section -->
-<div class="custom-topbar">
-  <div class="custom-container">
-    <div class="custom-social">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-instagram"></i>
-    </div>
-    <div class="custom-contact">
-  <i class="fas fa-phone-alt"></i> 
-  <a href="tel:+918802047981"style="color: aliceblue;">+91 8802047981</a> , 
-  <a href="tel:01141089537"style="color: aliceblue;">011 4108 9537</a>
-  <span class="divider">|</span>
-  <i class="fas fa-envelope"></i> 
-  <a href="mailto:sales@rsinternationaltours.com" style="color: aliceblue;">sales@rsinternationaltours.com</a>
-</div>
-
-  </div>
-</div>
-
-<!-- Main Navbar Section -->
-<header class="custom-navbar">
-  <div class="custom-logo-area">
-    <img src="https://rsinternationaltours.com/wp-content/uploads/2023/03/RSinternatinal-logo.png" alt="Logo" class="custom-logo">
-    <p class="custom-tagline">international tour packages</p>
-  </div>
-  <nav class="custom-nav-menu">
-    <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
-      <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
-      <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
-      <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
-      <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
-      <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
-      <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
-      <li><a href="#"><i class="fas fa-search"></i></a></li>
-    </ul>
-  </nav>
-</header>
-<!-- Mobile Header -->
-<!-- Mobile Header -->
-<div class="mobile-header-wrapper">
-  <div class="mobile-logo-area">
-    <img src="https://rsinternationaltours.com/wp-content/uploads/2023/03/RSinternatinal-logo.png" alt="Logo" />
-    <p class="mobile-tagline">international tour packages</p>
-  </div>
-
-  <div class="mobile-nav-bar">
-    <div class="mobile-search">
-      <i class="fas fa-search"></i>
-      <input type="text" placeholder="Search ..." />
-    </div>
-    <div class="mobile-menu-toggle" id="mobileMenuToggle">
-      <i class="fas fa-bars"></i>
-      <span>Menu</span>
-    </div>
-  </div>
-
-  <!-- Mobile Menu Items -->
-  <div class="mobile-menu-items" id="mobileMenuItems">
-    <ul>
-      <li><a href="#" >Home</a></li>
-      <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
-      <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
-      <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
-      <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
-      <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
-      <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
-      <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
-      <li><a href="#"><i class="fas fa-search"></i></a></li>
-    </ul>
-  </div>
-</div>
-
-<!-- Toggle Script -->
-<script>
-  const menuToggle = document.getElementById('mobileMenuToggle');
-  const menuItems = document.getElementById('mobileMenuItems');
-
-  menuToggle.addEventListener('click', () => {
-    menuItems.classList.toggle('show');
-  });
-</script>
-
-
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
-
-        <!--Main Slider Start-->
-        <section class="main-slider">
-  <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": false, "effect": "fade"}'>
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="main-slider__img">
-          <img src="assets/images/resources/main-slider-img-1-1.jpg" alt="">
-        </div>
-        <div class="main-slider__shpae-1">
-          <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
-        </div>
-        <div class="main-slider__shpae-2">
-          <img src="assets/images/shapes/main-slider-shape-2.png" alt="">
-        </div>
-        <div class="main-slider__start-1">
-          <img src="assets/images/shapes/main-slider-star-1.png" alt="">
-        </div>
-        <div class="main-slider__start-2 zoominout">
-          <img src="assets/images/shapes/main-slider-star-2.png" alt="">
-        </div>
-        <div class="main-slider__start-3">
-          <img src="assets/images/shapes/main-slider-star-3.png" alt="">
-        </div>
-     <div class="container">
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="main-slider__content">
-                <p class="main-slider__sub-title">Your One-Stop Partner for  </p>
-                <h2 class="main-slider__title">
-                    <span>Corporate Events  </span> <br>
-                    <span id="animated-text" class="animated-brackets">& MICE Travel</span>
-                </h2>
-                <p class="main-slider__text">
-                    From concept to completion, we orchestrate experiences that move people<br> and brands forward.
-                </p>
-                <div class="main-slider__btn-box mb-4">
-                    <a href="#" class="main-slider__btn thm-btn">
-                        Quick Meeting <span class="icon-arrow-right"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-        </div>
-      </div> <!-- swiper-slide -->
-    </div> <!-- swiper-wrapper -->
-  </div>
-</section>
-
-        
-        <!--Main Slider End-->
-
-
-        <!--Services One Start-->
-       <section class="services-one">
-  <div class="container">
-    <div class="section-title text-center">
-      <div class="section-title__tagline-box">
-        <!-- <span class="section-title__tagline">event benefits</span> -->
-      </div>
-      <h2 class="section-title__title">
-        Why Should You Choose Us <br> as Your Event Planner
-      </h2>
-    </div>
-    <div class="row">
-      <!-- Box 1 -->
-      <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-        <div class="services-one__single">
-          <div class="services-one__icon">
-            <span class="icon-check"></span>
-          </div>
-          <h3 class="services-one__title">Everything In-House</h3>
-          <p class="services-one__text">
-            From setup to printing — everything under one roof.
-          </p>
-        </div>
-      </div>
-
-      <!-- Box 2 -->
-      <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-        <div class="services-one__single">
-          <div class="services-one__icon">
-            <span class="icon-check"></span>
-          </div>
-          <h3 class="services-one__title">Strong Vendor Network</h3>
-          <p class="services-one__text">
-            Best corporate rates with reliable vendor connections.
-          </p>
-        </div>
-      </div>
-
-      <!-- Box 3 -->
-      <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-        <div class="services-one__single">
-          <div class="services-one__icon">
-            <span class="icon-check"></span>
-          </div>
-          <h3 class="services-one__title">Pan-India Presence</h3>
-          <p class="services-one__text">
-            Teams across 50+ cities & support in 35+ countries.
-          </p>
-        </div>
-      </div>
-
-      <!-- Box 4 -->
-      <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-        <div class="services-one__single">
-          <div class="services-one__icon">
-            <span class="icon-check"></span>
-          </div>
-          <h3 class="services-one__title">Last-Minute Experts</h3>
-          <p class="services-one__text">
-            Trained to handle last-minute execution with excellence.
-          </p>
-        </div>
-      </div>
-
-      <!-- Box 5 -->
-      <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
-        <div class="services-one__single">
-          <div class="services-one__icon">
-            <span class="icon-check"></span>
-          </div>
-          <h3 class="services-one__title">24x7 SPOC Support</h3>
-          <p class="services-one__text">
-            Single point of contact available 24x7 for seamless coordination.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-        <!--Services One End-->
-
-        <!-- Sliding Text One Start -->
-        <section class="sliding-text-one">
-            <div class="sliding-text-one__wrap">
-                <ul class="sliding-text__list list-unstyled marquee_mode">
-                    <li>
-                        <h2 data-hover="Magic of Events" class="sliding-text__title">Celebrate Employes Engagement
-                            <img src="assets/images/icon/star-icon.png" alt=""></h2>
-                    </li>
-                    <li>
-                        <h2 data-hover=" Celebrate Life" class="sliding-text__title"> Execution You Can Trust
-                            <img src="assets/images/icon/star-icon.png" alt=""></h2>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Sliding Text One End -->
-
-        <!-- Event One Start -->
-      <section class="event-one">
-    <div class="container">
-        <div class="event-one__inner wow fadeInUp" data-wow-delay="300ms">
-            <div class="event-one__top">
-                <div class="section-title text-left">
-                    <div class="section-title__tagline-box">
-                        <span class="section-title__tagline">About Our Services</span>
+        <div class="page-wrapper">
+            <!-- Top Header Section -->
+            <div class="custom-topbar">
+                <div class="custom-container">
+                    <div class="custom-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
                     </div>
-                    <h2 class="section-title__title">We Make Events Feel Easy</h2>
-                </div>
-                <div class="event-one__btn-box">
-                    <a href="schedule-meeting.html" class="event-one__btn thm-btn">Schedule Meeting 
-                        <span class="icon-arrow-right"></span>
-                    </a>
+                    <div class="custom-contact">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+918802047981" style="color: aliceblue;">+91 8802047981</a> ,
+                        <a href="tel:01141089537" style="color: aliceblue;">011 4108 9537</a>
+                        <span class="divider">|</span>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sales@rsinternationaltours.com" style="color: aliceblue;">sales@rsinternationaltours.com</a>
+                    </div>
                 </div>
             </div>
 
-            <ul class="list-unstyled event-one__points">
-                <li style="margin-bottom: 25px;">
-                    <div class="icon">
-                        <span class="icon-air-horn"></span>
-                    </div>
-                    <div class="content">
-                        <h4><a href="#">Corporate Meetings & Conferences</a></h4>
-                    </div>
-                </li>
+            <!-- Main Navbar Section -->
+            <header class="custom-navbar">
+                <div class="custom-logo-area">
+                    <img src="https://rsinternationaltours.com/wp-content/uploads/2023/03/RSinternatinal-logo.png" alt="Logo" class="custom-logo" />
+                    <p class="custom-tagline">international tour packages</p>
+                </div>
+                <nav class="custom-nav-menu">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
+                        <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
+                        <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
+                        <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
+                        <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
+                        <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
+                        <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Mobile Header -->
+            <!-- Mobile Header -->
+            <div class="mobile-header-wrapper">
+                <div class="mobile-logo-area">
+                    <img src="https://rsinternationaltours.com/wp-content/uploads/2023/03/RSinternatinal-logo.png" alt="Logo" />
+                    <p class="mobile-tagline">international tour packages</p>
+                </div>
 
-                <li style="margin-bottom: 25px;">
-                    <div class="icon">
-                        <span class="icon-party-blower"></span>
+                <div class="mobile-nav-bar">
+                    <div class="mobile-search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search ..." />
                     </div>
-                    <div class="content">
-                        <h4><a href="#">Incentive Travel & Team Offsites</a></h4>
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <i class="fas fa-bars"></i>
+                        <span>Menu</span>
                     </div>
-                </li>
+                </div>
 
-                <li style="margin-bottom: 25px;">
-                    <div class="icon">
-                        <span class="icon-gift-box"></span>
-                    </div>
-                    <div class="content">
-                        <h4><a href="#">Product Launches & Award Nights</a></h4>
-                    </div>
-                </li>
-
-                <li style="margin-bottom: 25px;">
-                    <div class="icon">
-                        <span class="icon-map"></span>
-                    </div>
-                    <div class="content">
-                        <h4><a href="#">International Business Tours & Exhibitions</a></h4>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="icon">
-                        <span class="icon-globe"></span>
-                    </div>
-                    <div class="content">
-                        <h4><a href="#">Complete MICE Management – India & Abroad</a></h4>
-                    </div>
-                </li>
-            </ul>
-
-            <div class="event-one__img-box">
-                <img src="assets/images/resources/event-one-img-1.jpg" alt="">
+                <!-- Mobile Menu Items -->
+                <div class="mobile-menu-items" id="mobileMenuItems">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
+                        <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
+                        <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
+                        <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
+                        <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
+                        <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
+                        <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
 
+            <!-- Toggle Script -->
+            <script>
+                const menuToggle = document.getElementById("mobileMenuToggle");
+                const menuItems = document.getElementById("mobileMenuItems");
 
-        <!-- Event One End -->
+                menuToggle.addEventListener("click", () => {
+                    menuItems.classList.toggle("show");
+                });
+            </script>
 
-        <!-- Buy Ticket Start -->
-        <section class="buy-ticket">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="buy-ticket__left wow fadeInLeft" data-wow-delay="100ms">
-                           
-                            <h3 class="buy-ticket__title">Engagement Options</h3>
-                            <p class="buy-ticket__text">Let’s Discuss and Customize your Event Planning as per the Requirements. 
-                               
-                                 </p>
-                            <div class="buy-ticket__btn-box">
-                                <a href="#" class="buy-ticket__btn-1 thm-btn">Schedule Meeting<span
-                                        class="icon-arrow-right"></span> </a>
-                                <a href="#" class="buy-ticket__btn-2 thm-btn">Contact Now <span
-                                        class="icon-arrow-right"></span> </a>
+            <div class="stricky-header stricked-menu main-menu">
+                <div class="sticky-header__content"></div>
+                <!-- /.sticky-header__content -->
+            </div>
+            <!-- /.stricky-header -->
+
+            <!--Main Slider Start-->
+            <section class="main-slider">
+                <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": false, "effect": "fade"}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main-slider__img">
+                                <img src="assets/images/resources/main-slider-img-1-1.jpg" alt="" />
+                            </div>
+                            <div class="main-slider__shpae-1">
+                                <img src="assets/images/shapes/main-slider-shape-1.png" alt="" />
+                            </div>
+                            <div class="main-slider__shpae-2">
+                                <img src="assets/images/shapes/main-slider-shape-2.png" alt="" />
+                            </div>
+                            <div class="main-slider__start-1">
+                                <img src="assets/images/shapes/main-slider-star-1.png" alt="" />
+                            </div>
+                            <div class="main-slider__start-2 zoominout">
+                                <img src="assets/images/shapes/main-slider-star-2.png" alt="" />
+                            </div>
+                            <div class="main-slider__start-3">
+                                <img src="assets/images/shapes/main-slider-star-3.png" alt="" />
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="main-slider__content">
+                                            <p class="main-slider__sub-title">Your One-Stop Partner for</p>
+                                            <h2 class="main-slider__title">
+                                                <span>Corporate Events </span> <br />
+                                                &
+                                                <span id="animated-text" class="animated-brackets">MICE</span>
+                                            </h2>
+                                            <p class="main-slider__text">
+                                                From concept to completion, we orchestrate experiences that move people<br />
+                                                and brands forward.
+                                            </p>
+                                            <div class="main-slider__btn-box mt-4">
+                                                <a href="#" id="openPopup" class="main-slider__btn thm-btn"> Quick Meeting <span class="icon-arrow-right"></span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="buy-ticket__right wow fadeInRight" data-wow-delay="300ms">
-                            <div class="buy-ticket__img">
-                                <img src="assets/images/resources/buy-ticket-img.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
+                    <!-- swiper-slide -->
                 </div>
-            </div>
-        </section>
-        <!-- Buy Ticket End -->
+                <!-- swiper-wrapper -->
+            </section>
 
-      
+            <!--Main Slider End-->
 
-        <!-- Event Direction Start -->
-        <section class="event-direction">
-            <div class="container">
-                <div class="event-direction__inner">
+            <!--Services One Start-->
+            <section class="services-one">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <div class="section-title__tagline-box">
+                            <!-- <span class="section-title__tagline">event benefits</span> -->
+                        </div>
+                        <h2 class="section-title__title">
+                            Why Should You Choose Us <br />
+                            as Your Event Planner
+                        </h2>
+                    </div>
                     <div class="row">
-                        <div class="col-xl-7 wow fadeInLeft" data-wow-delay="100ms">
-                            <div class="event-direction__left">
-                                <div class="section-title text-left">
-                                    <div class="section-title__tagline-box">
-                                        <span class="section-title__tagline">Our Event Direction, </span>
-                                    </div>
-                                    <h2 class="section-title__title">where details meet Perfection</h2>
+                        <!-- Box 1 -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="services-one__single">
+                                <div class="services-one__icon">
+                                    <span class="icon-check"></span>
                                 </div>
-                                <!-- <p class="event-direction__text">Events bring people together for a shared experien
+                                <h3 class="services-one__title">Everything In-House</h3>
+                                <p class="services-one__text">
+                                    From setup to printing — everything under one roof.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Box 2 -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="services-one__single">
+                                <div class="services-one__icon">
+                                    <span class="icon-check"></span>
+                                </div>
+                                <h3 class="services-one__title">Strong Vendor Network</h3>
+                                <p class="services-one__text">
+                                    Best corporate rates with reliable vendor connections.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Box 3 -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="services-one__single">
+                                <div class="services-one__icon">
+                                    <span class="icon-check"></span>
+                                </div>
+                                <h3 class="services-one__title">Pan-India Presence</h3>
+                                <p class="services-one__text">
+                                    Teams across 50+ cities & support in 35+ countries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Box 4 -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="services-one__single">
+                                <div class="services-one__icon">
+                                    <span class="icon-check"></span>
+                                </div>
+                                <h3 class="services-one__title">Last-Minute Experts</h3>
+                                <p class="services-one__text">
+                                    Trained to handle last-minute execution with excellence.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Box 5 -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                            <div class="services-one__single">
+                                <div class="services-one__icon">
+                                    <span class="icon-check"></span>
+                                </div>
+                                <h3 class="services-one__title">24x7 SPOC Support</h3>
+                                <p class="services-one__text">
+                                    Single point of contact available 24x7 for seamless coordination.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Services One End-->
+
+            <!-- Sliding Text One Start -->
+            <section class="sliding-text-one">
+                <div class="sliding-text-one__wrap">
+                    <ul class="sliding-text__list list-unstyled marquee_mode">
+                        <li>
+                            <h2 data-hover="Celebrate Employes Engagement" class="sliding-text__title">Celebrate Employes Engagement <img src="assets/images/icon/star-icon.png" alt="" /></h2>
+                        </li>
+                        <li>
+                            <h2 data-hover=" Execution You Can Trust" class="sliding-text__title">Execution You Can Trust <img src="assets/images/icon/star-icon.png" alt="" /></h2>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Sliding Text One End -->
+
+            <!-- Event One Start -->
+            <section class="event-one">
+                <div class="container">
+                    <div class="event-one__inner wow fadeInUp" data-wow-delay="300ms">
+                        <div class="event-one__top">
+                            <div class="section-title text-left">
+                                <div class="section-title__tagline-box">
+                                    <span class="section-title__tagline">About Our Services</span>
+                                </div>
+                                <h2 class="section-title__title">We Make Events Feel Easy</h2>
+                            </div>
+                            <div class="event-one__btn-box">
+                                <a href="#" id="openQuickMeeting" class="main-slider__btn thm-btn"> Quick Meeting <span class="icon-arrow-right"></span> </a>
+                            </div>
+                        </div>
+
+                        <ul class="list-unstyled event-one__points">
+                            <li style="margin-bottom: 25px;">
+                                <div class="icon">
+                                    <span class="icon-air-horn"></span>
+                                </div>
+                                <div class="content">
+                                    <h4><a href="#">Corporate Meetings & Conferences</a></h4>
+                                </div>
+                            </li>
+
+                            <li style="margin-bottom: 25px;">
+                                <div class="icon">
+                                    <span class="icon-party-blower"></span>
+                                </div>
+                                <div class="content">
+                                    <h4><a href="#">Incentive Travel & Team Offsites</a></h4>
+                                </div>
+                            </li>
+
+                            <li style="margin-bottom: 25px;">
+                                <div class="icon">
+                                    <span class="icon-gift-box"></span>
+                                </div>
+                                <div class="content">
+                                    <h4><a href="#">Product Launches & Award Nights</a></h4>
+                                </div>
+                            </li>
+
+                            <li style="margin-bottom: 25px;">
+                                <div class="icon">
+                                    <span class="icon-map"></span>
+                                </div>
+                                <div class="content">
+                                    <h4><a href="#">International Business Tours & Exhibitions</a></h4>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-globe"></span>
+                                </div>
+                                <div class="content">
+                                    <h4><a href="#">Complete MICE Management – India & Abroad</a></h4>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="event-one__img-box">
+                            <img src="assets/images/resources/event-one-img-1.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Event One End -->
+
+            <!-- Buy Ticket Start -->
+            <section class="buy-ticket">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="buy-ticket__left wow fadeInLeft" data-wow-delay="100ms">
+                                <div class="section-title__tagline-box">
+                                    <span class="section-title__tagline">Engagement Options</span>
+                                </div>
+                                <h3 class="buy-ticket__title">Let’s Discuss and Customize your Event Planning as per the Requirements</h3>
+                                <p class="buy-ticket__text">.</p>
+                                <div class="buy-ticket__btn-box">
+                                    <a href="#" class="buy-ticket__btn-1 thm-btn" id="openPopup">Schedule Meeting</a>
+
+                                    <a href="tel:01141089537" class="buy-ticket__btn-2 thm-btn"> Contact Now <span class="icon-arrow-right"></span> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="buy-ticket__right wow fadeInRight" data-wow-delay="300ms">
+                                <div class="buy-ticket__img">
+                                    <img src="assets/images/resources/buy-ticket-img.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Buy Ticket End -->
+
+            <!-- Event Direction Start -->
+            <section class="event-direction">
+                <div class="container">
+                    <div class="event-direction__inner">
+                        <div class="row">
+                            <div class="col-xl-7 wow fadeInLeft" data-wow-delay="100ms">
+                                <div class="event-direction__left">
+                                    <div class="section-title text-left">
+                                        <div class="section-title__tagline-box">
+                                            <span class="section-title__tagline">Our Event Direction, </span>
+                                        </div>
+                                        <h2 class="section-title__title">where details meet Perfection</h2>
+                                    </div>
+                                    <!-- <p class="event-direction__text">Events bring people together for a shared experien
                                     celebration a <br> From weddings and birthdays to conferences </p> -->
-                                <div class="event-direction__call">
-                                    <div class="event-direction__call-icon">
-                                        <img src="assets/images/icon/event-direction-chat-icon.png" alt="">
-                                    </div>
-                                    <div class="event-direction__call-content">
-                                        <p>Call Us</p>
-                                        <h4><a href="tel:3075550133">(307) 555-0133</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 wow fadeInRight" data-wow-delay="300ms">
-                            <div class="event-direction__right">
-                                <ul class="event-direction__counter list-unstyled">
-                                    <li>
-                                        <div class="event-direction__counter-single">
-                                            <div class="event-direction__counter-box">
-                                                <h3 class="odometer" data-count="250">00</h3>
-                                                <span class="event-direction__counter-plus">+</span>
-                                            </div>
-                                            <p class="event-direction__counter-text">Events Executed</p>
+                                    <div class="event-direction__call">
+                                        <div class="event-direction__call-icon">
+                                            <img src="assets/images/icon/event-direction-chat-icon.png" alt="" />
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="event-direction__counter-single">
-                                            <div class="event-direction__counter-box">
-                                                <h3 class="odometer" data-count="450">00</h3>
-                                                <span class="event-direction__counter-plus">+</span>
-                                            </div>
-                                            <p class="event-direction__counter-text">Corporate Clients</p>
+                                        <div class="event-direction__call-content">
+                                            <p>Call Us</p>
+                                            <h4><a href="tel:3075550133">(307) 555-0133</a></h4>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="event-direction__counter-single">
-                                            <div class="event-direction__counter-box">
-                                                <h3 class="odometer" data-count="10">35</h3>
-                                                <span class="event-direction__counter-plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 wow fadeInRight" data-wow-delay="300ms">
+                                <div class="event-direction__right">
+                                    <ul class="event-direction__counter list-unstyled">
+                                        <li>
+                                            <div class="event-direction__counter-single">
+                                                <div class="event-direction__counter-box">
+                                                    <h3 class="odometer" data-count="250">00</h3>
+                                                    <span class="event-direction__counter-plus">+</span>
+                                                </div>
+                                                <p class="event-direction__counter-text">Events Executed</p>
                                             </div>
-                                            <p class="event-direction__counter-text">Countries Covered</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="event-direction__counter-single">
-                                            <div class="event-direction__counter-box">
-                                                <h3 class="odometer" data-count="500">00</h3>
-                                                <span class="event-direction__counter-plus">+</span>
+                                        </li>
+                                        <li>
+                                            <div class="event-direction__counter-single">
+                                                <div class="event-direction__counter-box">
+                                                    <h3 class="odometer" data-count="450">00</h3>
+                                                    <span class="event-direction__counter-plus">+</span>
+                                                </div>
+                                                <p class="event-direction__counter-text">Corporate Clients</p>
                                             </div>
-                                            <p class="event-direction__counter-text">Hotels & Venues We Work With</p>
-                                        </div>
-                                    </li>
-                                     <li>
-                                        <div class="event-direction__counter-single">
-                                            <div class="event-direction__counter-box">
-                                                <h3 class="odometer" data-count="50">00</h3>
-                                                <span class="event-direction__counter-plus">+</span>
+                                        </li>
+                                        <li>
+                                            <div class="event-direction__counter-single">
+                                                <div class="event-direction__counter-box">
+                                                    <h3 class="odometer" data-count="10">35</h3>
+                                                    <span class="event-direction__counter-plus">+</span>
+                                                </div>
+                                                <p class="event-direction__counter-text">Countries Covered</p>
                                             </div>
-                                            <p class="event-direction__counter-text">Indian Cities Covered</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Event Direction End -->
-
-        <!-- Gallery One Start -->
-        <section class="gallery-one">
-            <div class="container">
-                <div class="section-title text-center">
-                    <div class="section-title__tagline-box">
-                        <!-- <span class="section-title__tagline">Latest Gallery</span> -->
-                    </div>
-                    <h2 class="section-title__title">Rs International Tours, 13+ years  <br> of Journey of Interactive Moments</h2>
-                </div>
-                <div class="row masonary-layout">
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-1.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-2.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-3.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-4.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-5.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-6.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-7.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-8.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gallery-one__single">
-                            <div class="gallery-one__img">
-                                <img src="assets/images/gallery/gallery-1-9.jpg" alt="">
-                                <div class="gallery-one__content">
-                                    <div class="gallery-one__sub-title-box">
-                                        <div class="gallery-one__sub-title-shape"></div>
-                                        <p class="gallery-one__sub-title">Gala Affairs</p>
-                                    </div>
-                                    <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event
-                                            Planning</a></h4>
+                                        </li>
+                                        <li>
+                                            <div class="event-direction__counter-single">
+                                                <div class="event-direction__counter-box">
+                                                    <h3 class="odometer" data-count="500">00</h3>
+                                                    <span class="event-direction__counter-plus">+</span>
+                                                </div>
+                                                <p class="event-direction__counter-text">Hotels & Venues</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="event-direction__counter-single">
+                                                <div class="event-direction__counter-box">
+                                                    <h3 class="odometer" data-count="50">00</h3>
+                                                    <span class="event-direction__counter-plus">+</span>
+                                                </div>
+                                                <p class="event-direction__counter-text">Indian Cities Covered</p>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Gallery One End -->
+            </section>
+            <!-- Event Direction End -->
 
-        <!-- Schedule One Start -->
-       
-
-      
-
-        
-        <!--CTA One Start-->
-        <section class="cta-one">
-            <div class="container">
-                <div class="cta-one__inner">
-                    <h3 class="cta-one__title"> Request Proposal or Schedule meeting <br> for better understanding</h3>
-                    <form class="cta-one__form mc-form" data-url="MC_FORM_URL" novalidate="novalidate">
-                        <div class="cta-one__form-input-box">
-                            <input type="email" placeholder="Enter your email" name="EMAIL">
-                            <button type="submit" class="cta-one__btn"><span class="icon-paper-plan"></span></button>
+            <!-- Gallery One Start -->
+            <section class="gallery-one">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <div class="section-title__tagline-box">
+                            <span class="section-title__tagline">Rs International Tours</span>
                         </div>
+                        <h2 class="section-title__title">13+ years of Journey of Interactive Moments</h2>
+                    </div>
+                    <div class="row masonary-layout">
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-1.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-2.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-3.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-4.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-5.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-6.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-7.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-8.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <div class="gallery-one__single">
+                                <div class="gallery-one__img">
+                                    <img src="assets/images/gallery/gallery-1-9.jpg" alt="" />
+                                    <div class="gallery-one__content">
+                                        <div class="gallery-one__sub-title-box">
+                                            <div class="gallery-one__sub-title-shape"></div>
+                                            <p class="gallery-one__sub-title">Gala Affairs</p>
+                                        </div>
+                                        <h4 class="gallery-one__title"><a href="gallery-details.html">Dream Makers Event Planning</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Gallery One End -->
+
+            <!-- Schedule One Start -->
+
+            <!--CTA One Start-->
+            <section class="cta-one">
+                <div class="container">
+                    <div class="cta-one__inner">
+                        <h3 class="cta-one__title">
+                            Request Proposal or Schedule meeting <br />
+                            for better understanding
+                        </h3>
+                        <form class="cta-one__form mc-form" data-url="MC_FORM_URL" novalidate="novalidate">
+                            <div class="cta-one__form-input-box">
+                                <input type="email" placeholder="Enter your email" name="EMAIL" />
+                                <button type="submit" class="cta-one__btn"><span class="icon-paper-plan"></span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--CTA One End-->
+            <div id="popupForm" class="popup-form">
+                <div class="popup-content">
+                    <span id="closePopup" class="close-btn">&times;</span>
+                    <h3>Schedule a Quick Meeting</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required />
+                        <input type="email" placeholder="Email Address" required />
+                        <input type="tel" placeholder="Phone Number" required />
+                        <textarea placeholder="Message" rows="4"></textarea>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
-        </section>
-        <!--CTA One End-->
 
-        <footer class="site-footer">
-  <div class="site-footer__shape-1 float-bob-y">
-    <img src="assets/images/shapes/site-footer-shape-1.png" alt="">
-  </div>
-  <div class="site-footer__top">
-    <div class="container">
-      <div class="site-footer__top-inner">
-        <!-- <div class="site-footer__logo">
+            <footer class="site-footer">
+                <div class="site-footer__shape-1 float-bob-y">
+                    <img src="assets/images/shapes/site-footer-shape-1.png" alt="" />
+                </div>
+                <div class="site-footer__top">
+                    <div class="container">
+                        <div class="site-footer__top-inner">
+                            <!-- <div class="site-footer__logo">
           <a href="index.html"><img src="https://rsinternationaltours.com/wp-content/uploads/2023/03/RSinternatinal-logo.png" alt=""></a>
         </div> -->
-        <div class="site-footer__social">
-          <a href="https://www.facebook.com/profile.php?id=100064150025944&mibextid=ZbWKwL"><i class="icon-facebook"></i></a>
-          <!-- <a href="#"><i class="icon-fi"></i></a> -->
-          <a href="https://www.instagram.com/rsinternationaltours?igshid=MzRlODBiNWFlZA%3D%3D"><i class="icon-instagram"></i></a>
-          <a href="https://www.youtube.com/@internationaltourpackages6697"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="site-footer__middle">
-    <div class="container">
-      <div class="site-footer__middle-inner">
-        <div class="row">
-          <!-- About Section (was Upcoming Events) -->
-          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-            <div class="footer-widget__column footer-widget__about">
-              <div class="footer-widget__title-box">
-                <h3 class="footer-widget__title">About</h3>
-              </div>
-              <p style="font-size: 14px;">
-                RS International Tours is a complete Destination Management Company based in Delhi NCR, India, was set up by respected travel industry professionals since 2014. With collective experience in the field, it offers its expertise in travel services, India and Abroad.
-              </p>
-            </div>
-          </div>
-
-          <!-- Quick Links Section (Merged) -->
-          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-            <div class="footer-widget__column footer-widget__link">
-              <div class="footer-widget__title-box">
-                <h3 class="footer-widget__title">Quick Links</h3>
-              </div>
-              <ul class="footer-widget__link-list list-unstyled">
-                <li><a href="#">Home</a></li>
-                <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
-                <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
-                <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
-               
-              </ul>
-            </div>
-          </div>
- <!-- Quick Links Section (Merged) -->
-          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-            <div class="footer-widget__column footer-widget__link">
-              <div class="footer-widget__title-box">
-                <h3 class="footer-widget__title">Quick Links</h3>
-              </div>
-              <ul class="footer-widget__link-list list-unstyled">
-               
-                <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
-                <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
-                <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
-                <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
-        
-              </ul>
-            </div>
-          </div>
-          <!-- Contact Section (unchanged) -->
-          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-            <div class="footer-widget__column footer-widget__contact">
-              <div class="footer-widget__title-box">
-                <h3 class="footer-widget__title">Contact</h3>
-              </div>
-              <div class="footer-widget__contact-inner">
-                <ul class="footer-widget__contact-list list-unstyled">
-                  <li>
-                    <div class="icon"><span class="icon-envelop"></span></div>
-                    <div class="text">
-                      <p><a href="mailto:sales@rsinternationaltours.com">sales@rsinternationaltours.com</a></p>
+                            <div class="site-footer__social">
+                                <a href="https://www.facebook.com/profile.php?id=100064150025944&mibextid=ZbWKwL"><i class="icon-facebook"></i></a>
+                                <!-- <a href="#"><i class="icon-fi"></i></a> -->
+                                <a href="https://www.instagram.com/rsinternationaltours?igshid=MzRlODBiNWFlZA%3D%3D"><i class="icon-instagram"></i></a>
+                                <a href="https://www.youtube.com/@internationaltourpackages6697"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
                     </div>
-                  </li>
-                  <li>
-                    <!-- <div class="icon"><span class="icon-pin"></span></div>
+                </div>
+                <div class="site-footer__middle">
+                    <div class="container">
+                        <div class="site-footer__middle-inner">
+                            <div class="row">
+                                <!-- About Section (was Upcoming Events) -->
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                    <div class="footer-widget__column footer-widget__about">
+                                        <div class="footer-widget__title-box">
+                                            <h3 class="footer-widget__title">About</h3>
+                                        </div>
+                                        <p style="font-size: 14px;">
+                                            RS International Tours is a complete Destination Management Company based in Delhi NCR, India, was set up by respected travel industry professionals since 2014. With collective experience in the
+                                            field, it offers its expertise in travel services, India and Abroad.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Quick Links Section (Merged) -->
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="footer-widget__column footer-widget__link">
+                                        <div class="footer-widget__title-box">
+                                            <h3 class="footer-widget__title">Quick Links</h3>
+                                        </div>
+                                        <ul class="footer-widget__link-list list-unstyled">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="https://rsinternationaltours.com/about-us/">About Us</a></li>
+                                            <li><a href="https://rsinternationaltours.com/specialized/">Specialized Tours</a></li>
+                                            <li><a href="https://rsinternationaltours.com/international-packages/">International Packages</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Quick Links Section (Merged) -->
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="footer-widget__column footer-widget__link">
+                                        <div class="footer-widget__title-box">
+                                            <h3 class="footer-widget__title">Quick Links</h3>
+                                        </div>
+                                        <ul class="footer-widget__link-list list-unstyled">
+                                            <li><a href="https://rsinternationaltours.com/india-packages/">India Packages</a></li>
+                                            <li><a href="https://rsinternationaltours.com/blog/">Blog</a></li>
+                                            <li><a href="https://rsinternationaltours.com/mice/">Mice</a></li>
+                                            <li><a href="https://rsinternationaltours.com/contact-us/">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Contact Section (unchanged) -->
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                                    <div class="footer-widget__column footer-widget__contact">
+                                        <div class="footer-widget__title-box">
+                                            <h3 class="footer-widget__title">Contact</h3>
+                                        </div>
+                                        <div class="footer-widget__contact-inner">
+                                            <ul class="footer-widget__contact-list list-unstyled">
+                                                <li>
+                                                    <div class="icon"><span class="icon-envelop"></span></div>
+                                                    <div class="text">
+                                                        <p><a href="mailto:sales@rsinternationaltours.com">sales@rsinternationaltours.com</a></p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <!-- <div class="icon"><span class="icon-pin"></span></div>
                     <div class="text">
                       <p>32595/5 GF, Guru Chamber, Beadon Pura, Karol Bagh, New Delhi - 110005</p>
                     </div> -->
-                  </li>
-                  <li>
-                    <div class="icon"><span class="icon-call"></span></div>
-                    <div class="text">
-                      <p><a href="tel:+91 8802047981">+91 8802047981 , 011 4108 9537</a></p>
+                                                </li>
+                                                <li>
+                                                    <div class="icon"><span class="icon-call"></span></div>
+                                                    <div class="text">
+                                                        <p><a href="tel:+91 8802047981">+91 8802047981 , 011 4108 9537</a></p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="site-footer__bottom">
-    <div class="container">
-      <div class="site-footer__bottom-inner">
-        <p class="site-footer__bottom-text">Copyrights © 2026 All Rights Reserved RS International Tours</p>
-        <!-- <ul class="list-unstyled site-footer__bottom-menu">
+                </div>
+                <div class="site-footer__bottom">
+                    <div class="container">
+                        <div class="site-footer__bottom-inner">
+                            <p class="site-footer__bottom-text">Copyrights © 2026 All Rights Reserved RS International Tours</p>
+                            <!-- <ul class="list-unstyled site-footer__bottom-menu">
           <li><a href="about.html">Trams & Condition</a></li>
           <li><a href="about.html">Privacy Policy</a></li>
           <li><a href="about.html">Contact Us</a></li>
         </ul> -->
-      </div>
-    </div>
-  </div>
-</footer>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- /.page-wrapper -->
 
+        <div class="mobile-nav__wrapper">
+            <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+            <!-- /.mobile-nav__overlay -->
+            <div class="mobile-nav__content">
+                <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
-    </div><!-- /.page-wrapper -->
+                <div class="logo-box">
+                    <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="150" alt="" /></a>
+                </div>
+                <!-- /.logo-box -->
+                <div class="mobile-nav__container"></div>
+                <!-- /.mobile-nav__container -->
 
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="150"
-                        alt="" /></a>
+                <ul class="mobile-nav__contact list-unstyled">
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:needhelp@packageName__.com">needhelp@eventflow.com</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone-alt"></i>
+                        <a href="tel:666-888-0000">666 888 0000</a>
+                    </li>
+                </ul>
+                <!-- /.mobile-nav__contact -->
+                <div class="mobile-nav__top">
+                    <div class="mobile-nav__social">
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-facebook-square"></a>
+                        <a href="#" class="fab fa-pinterest-p"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                    <!-- /.mobile-nav__social -->
+                </div>
+                <!-- /.mobile-nav__top -->
             </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@eventflow.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
+            <!-- /.mobile-nav__content -->
         </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
+        <!-- /.mobile-nav__wrapper -->
 
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
+        <div class="search-popup">
+            <div class="search-popup__overlay search-toggler"></div>
+            <!-- /.search-popup__overlay -->
+            <div class="search-popup__content">
+                <form action="#">
+                    <label for="search" class="sr-only">search here</label>
+                    <!-- /.sr-only -->
+                    <input type="text" id="search" placeholder="Search Here..." />
+                    <button type="submit" aria-label="search submit" class="thm-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <!-- /.search-popup__content -->
         </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
+        <!-- /.search-popup -->
 
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+        <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+        <script>
+            const popup = document.getElementById("popupForm");
+            const openBtn = document.getElementById("openPopup");
+            const closeBtn = document.getElementById("closePopup");
 
+            openBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                popup.style.display = "flex";
+            });
 
-    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/marque/marquee.min.js"></script>
-    <script src="assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
+            closeBtn.addEventListener("click", function () {
+                popup.style.display = "none";
+            });
 
+            window.addEventListener("click", function (e) {
+                if (e.target === popup) {
+                    popup.style.display = "none";
+                }
+            });
+        </script>
 
+        <script>
+            const animatedText = document.getElementById("animated-text");
+            const texts = ["MICE", "Travel"];
+            let index = 0;
 
+            setInterval(() => {
+                // Fade out
+                animatedText.style.opacity = 0;
 
+                setTimeout(() => {
+                    // Change text
+                    index = (index + 1) % texts.length;
+                    animatedText.textContent = texts[index];
+                    // Fade in
+                    animatedText.style.opacity = 1;
+                }, 500);
+            }, 2000);
+        </script>
 
-    <!-- template js -->
-    <script src="assets/js/eventflow.js"></script>
-</body>
+        <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+        <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+        <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+        <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+        <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+        <script src="assets/vendors/odometer/odometer.min.js"></script>
+        <script src="assets/vendors/swiper/swiper.min.js"></script>
+        <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+        <script src="assets/vendors/wow/wow.js"></script>
+        <script src="assets/vendors/isotope/isotope.js"></script>
+        <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+        <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+        <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+        <script src="assets/vendors/countdown/countdown.min.js"></script>
+        <script src="assets/vendors/marque/marquee.min.js"></script>
+        <script src="assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
 
+        <!-- template js -->
+        <script src="assets/js/eventflow.js"></script>
+    </body>
 </html>
