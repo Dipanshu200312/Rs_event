@@ -225,7 +225,7 @@ ul {
   font-weight: 500;
   letter-spacing: 1.2px;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -259,7 +259,7 @@ ul {
   text-transform: capitalize;
   letter-spacing: 1.6px;
   padding: 17px 30px 17px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 30px;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
@@ -280,7 +280,7 @@ ul {
   height: 150%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   transition-duration: 700ms;
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   z-index: -1;
@@ -1873,7 +1873,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2052,7 +2052,7 @@ ul {
 }
 
 .main-slider-two__title .color-text {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2472,7 +2472,7 @@ ul {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
 }
 
 .services-one__icon span {
@@ -2674,7 +2674,7 @@ ul {
     width: 100%;
     height: 68px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
 }
 
 .event-one__points li .icon span {
@@ -2913,7 +2913,7 @@ ul {
   bottom: 30px;
   left: 30px;
   right: 30px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 20px;
   padding: 27px 30px 29px;
   transform: translateY(66%);
@@ -3180,7 +3180,7 @@ ul {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
 }
 
 .gallery-one__sub-title {
@@ -3260,7 +3260,7 @@ ul {
   bottom: 0;
   height: 0%;
   content: "";
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 32px;
   transition: all 0.3s ease;
   z-index: -1;
@@ -3718,7 +3718,7 @@ ul {
 .cta-one {
   position: relative;
   display: block;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   padding: 80px 0 80px;
   z-index: 1;
 }
@@ -3842,7 +3842,7 @@ ul {
 }
 
 .site-footer__social a:hover {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -4003,7 +4003,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 15px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -4126,7 +4126,7 @@ ul {
   bottom: 0;
   height: 0%;
   content: "";
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 32px;
   transition: all 0.3s ease;
   z-index: -1;
@@ -4393,7 +4393,7 @@ ul {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   margin-bottom: 22px;
   z-index: 1;
 }
@@ -4515,7 +4515,7 @@ ul {
   position: absolute;
   bottom: 30px;
   right: -120px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   max-width: 230px;
   width: 100%;
   border-radius: 20px;
@@ -4667,7 +4667,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 40px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -4744,7 +4744,7 @@ ul {
 .countdown-one__inner {
   position: relative;
   display: block;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 20px;
   padding: 70px 80px 30px;
   z-index: 1;
@@ -4968,7 +4968,7 @@ ul {
   bottom: 0;
   height: 0%;
   content: "";
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 32px;
   transition: all 0.3s ease;
   z-index: -1;
@@ -5155,7 +5155,7 @@ ul {
 
 .gallery-two__nav .swiper-button-prev1:hover i,
 .gallery-two__nav .swiper-button-next1:hover i {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -5314,7 +5314,7 @@ ul {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
 }
 
 .gallery-two__sub-title {
@@ -5456,7 +5456,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 45px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -5503,7 +5503,7 @@ ul {
 
 .testimonial-one__nav .swiper-button-prev1:hover i,
 .testimonial-one__nav .swiper-button-next1:hover i {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -5640,7 +5640,7 @@ ul {
   right: 5px;
   bottom: 5px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   opacity: 0.4;
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
@@ -5656,7 +5656,7 @@ ul {
   right: 10px;
   bottom: 10px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -5853,7 +5853,7 @@ ul {
   width: 0%;
   top: 50%;
   left: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
   z-index: -1;
@@ -5952,7 +5952,7 @@ ul {
   bottom: 0;
   left: 0;
   height: 0;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   transition: all 0.5s linear;
   z-index: -1;
 }
@@ -6244,7 +6244,7 @@ ul {
   position: absolute;
   top: 0;
   right: 0;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 0px 20px;
   padding: 12.5px 16px;
   z-index: 2;
@@ -6387,7 +6387,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 55px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -6453,7 +6453,7 @@ ul {
   width: 0%;
   top: 50%;
   left: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
   z-index: -1;
@@ -6507,7 +6507,7 @@ ul {
   bottom: 0;
   border: none;
   width: 55px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   display: flex;
@@ -6686,7 +6686,7 @@ ul {
 .ticket-one__price-box {
   position: relative;
   display: inline-block;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   padding: 18px 30px 18px;
   border-top-right-radius: 37px;
   border-bottom-right-radius: 37px;
@@ -7231,7 +7231,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 30px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7296,7 +7296,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -7371,7 +7371,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 43px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7423,7 +7423,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 13px;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7481,12 +7481,12 @@ ul {
 }
 
 .blog-details__prev-arrow:hover {
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
 }
 
 .blog-details__prev-arrow span {
   font-size: 15px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7576,12 +7576,12 @@ ul {
 }
 
 .blog-details__next-arrow:hover {
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
 }
 
 .blog-details__next-arrow span {
   font-size: 15px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7702,7 +7702,7 @@ ul {
 
 .blog-details__social a span {
   font-size: 17px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7904,7 +7904,7 @@ ul {
   justify-content: center;
   padding: 0;
   background-color: transparent;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7973,7 +7973,7 @@ ul {
   right: 0;
   bottom: 0;
   border-radius: 27px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -8001,7 +8001,7 @@ ul {
   left: 20px;
   font-size: 14px;
   transform: translateY(-50%);
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8067,7 +8067,7 @@ ul {
 }
 
 .sidebar__post-date span {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8131,7 +8131,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 17px;
   background-position: center top;
   transition-delay: .1s;
@@ -8310,7 +8310,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   opacity: 0;
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
@@ -8323,7 +8323,7 @@ ul {
 }
 
 .blog-list__pagination .pg-pagination li a i {
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8382,7 +8382,7 @@ ul {
   position: relative;
   display: block;
   text-align: center;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 20px;
   padding: 19px 20px 17px;
   margin-bottom: 30px;
@@ -8470,7 +8470,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   opacity: 0;
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
@@ -8533,7 +8533,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 13px;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8651,7 +8651,7 @@ ul {
   bottom: 0;
   height: 0%;
   content: "";
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 32px;
   transition: all 0.3s ease;
   z-index: -1;
@@ -8800,7 +8800,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 15px;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8890,7 +8890,7 @@ ul {
   justify-content: center;
   width: 96px;
   height: 96px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -9110,7 +9110,7 @@ ul {
   right: 0;
   bottom: 0;
   border-radius: 27px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -9138,7 +9138,7 @@ ul {
   left: 20px;
   font-size: 14px;
   transform: translateY(-50%);
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -9188,7 +9188,7 @@ ul {
   position: relative;
   display: block;
   text-align: center;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 20px;
   padding: 38px 30px 38px;
 }
@@ -9291,7 +9291,7 @@ ul {
   right: 0;
   bottom: 0;
   border-radius: 27px;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -9395,7 +9395,7 @@ ul {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   margin-bottom: 22px;
   z-index: 1;
 }
@@ -9682,7 +9682,7 @@ ul {
   right: 0;
   bottom: 0;
   border-radius: 50%;
-  background: linear-gradient(90deg, #4A0AB4 0%, #B20D5D 100%);
+  background: linear-gradient(90deg, #164e86 0%, #497098 100%);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   opacity: 0;
@@ -9862,7 +9862,7 @@ ul {
   font-size: 350px;
   line-height: 350px;
   font-weight: 500;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -9901,7 +9901,7 @@ ul {
   height: 52px;
   width: 100%;
   outline: none;
-  background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+  background: linear-gradient(90deg, #ed6223 0%, #eec0c4 100%);
   border-radius: 25px;
   border: 0;
   font-size: 14px;
